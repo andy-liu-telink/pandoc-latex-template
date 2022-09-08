@@ -40,15 +40,6 @@ $endfor$
   ,captions=tableheading
 ]{$if(beamer)$$documentclass$$else$$if(book)$scrbook$else$scrartcl$endif$$endif$}
 
-\usepackage{draftwatermark}
-
-\SetWatermarkText{Telink Semiconductor}
-\SetWatermarkColor[gray]{0.9}
-\SetWatermarkFontSize{1cm}
-\SetWatermarkAngle{45}
-\SetWatermarkHorCenter{10cm}
-
-
 $if(beamer)$
 $if(background-image)$
 \usebackgroundtemplate{%
